@@ -1,16 +1,31 @@
+import { CafeExperience } from '@/components/site/cafe-experience'
+import { CoffeeProcess } from '@/components/site/coffee-process'
+import { Footer } from '@/components/site/footer'
+import { GallerySection } from '@/components/site/gallery-section'
+import { HeroSection } from '@/components/site/hero-section'
+import { MenuSection } from '@/components/site/menu-section'
+import { Navbar } from '@/components/site/navbar'
+import { NewsletterSection } from '@/components/site/newsletter-section'
+import { StorySection } from '@/components/site/story-section'
+import { Testimonials } from '@/components/site/testimonials'
+import { VisitSection } from '@/components/site/visit-section'
+
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center font-sans">
-      <main className="flex w-full max-w-3xl flex-col items-center gap-8 px-6 py-16 text-center sm:items-start sm:text-left">
-        <div className="flex flex-col gap-4">
-          <h1 className="text-4xl font-bold tracking-tight">
-            cafe
-          </h1>
-          <p className="max-w-md text-lg text-muted-foreground">
-            To get started, send a prompt or modify this page directly.
-          </p>
-        </div>
+    <>
+      <Navbar />
+      <main>
+        <HeroSection />
+        <MenuSection />
+        <CafeExperience />
+        <StorySection />
+        <CoffeeProcess />
+        <GallerySection />
+        <Testimonials />
+        <VisitSection />
+        <NewsletterSection />
       </main>
-    </div>
-  );
+      <Footer />
+    </>
+  )
 }
