@@ -85,7 +85,7 @@ export function Footer() {
           <p>
             © {new Date().getFullYear()} {siteConfig.name}. A fictional café — portfolio concept.
           </p>
-          <p>Made slowly, enjoyed slowly.</p>
+          <p>Made by {siteConfig.credit}</p>
         </div>
       </div>
     </footer>
