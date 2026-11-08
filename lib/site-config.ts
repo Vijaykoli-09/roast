@@ -1,6 +1,5 @@
-// All business details for Café Rowan live here.
-// Café Rowan is a fictional portfolio concept — every address, phone number,
-// price and review below is demonstration content. Edit this file to adapt it.
+// Café Rowan is a fictional portfolio concept. The location, prices and reviews
+// are demo content; contact and attribution details were provided by Vijay Koli.
 
 export const siteConfig = {
   name: 'Café Rowan',
@@ -17,10 +16,11 @@ export const siteConfig = {
     { days: 'Kitchen closes', time: '8:30 PM' },
   ],
   phone: {
-    display: '+91 90000 00000',
-    href: 'tel:+919000000000',
+    display: '+91 93594 01903',
+    href: 'tel:+919359401903',
   },
-  email: 'hello@caferowan.example',
+  email: 'vijaysunilkoli@gmail.com',
+  credit: 'Vijay Koli',
   mapsUrl:
     'https://www.google.com/maps/search/?api=1&query=24+Garden+Lane+Old+Town',
   social: {
@@ -29,7 +29,7 @@ export const siteConfig = {
       url: 'https://www.instagram.com/',
     },
   },
-  isDemo: true,
+  hasDemoLocation: true,
 } as const
 
 export const navLinks = [

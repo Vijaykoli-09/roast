@@ -66,9 +66,9 @@ export function VisitSection() {
                 Call the Café
               </Cta>
             </div>
-            {siteConfig.isDemo && (
+            {siteConfig.hasDemoLocation && (
               <p className="text-xs text-muted-foreground">
-                Demonstration details for a fictional café. Address, phone and email are placeholders.
+                Address and map are demo placeholders; contact details are provided by Vijay Koli.
               </p>
             )}
           </Reveal>
@@ -94,7 +94,7 @@ export function VisitSection() {
               target="_blank"
               rel="noopener noreferrer"
               className="group block overflow-hidden rounded-2xl border-8 border-card bg-card shadow-xl"
-              aria-label="Open the demo location in Google Maps"
+              aria-label="Open the demo address in Google Maps"
             >
               <div className="relative aspect-[4/3] overflow-hidden">
                 <Image
