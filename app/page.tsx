@@ -6,6 +6,7 @@ import { HeroSection } from '@/components/site/hero-section'
 import { MenuSection } from '@/components/site/menu-section'
 import { Navbar } from '@/components/site/navbar'
 import { NewsletterSection } from '@/components/site/newsletter-section'
+import { ScrollingBeans } from '@/components/site/scrolling-beans'
 import { StorySection } from '@/components/site/story-section'
 import { Testimonials } from '@/components/site/testimonials'
 import { VisitSection } from '@/components/site/visit-section'
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
+      <ScrollingBeans />
       <main>
         <HeroSection />
         <MenuSection />
